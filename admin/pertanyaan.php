@@ -61,8 +61,8 @@ if ($no%2<>0) {$warna="#efefef";} else {$warna="#dddddd";}
 <tr bgcolor="<?php echo $warna; ?>">
   <td align="center" height="30"><?php echo $no; ?></td>
   <td align="left"><?php echo $row[master_gejala]; ?></td>
+  <td width="50" align="center"><a href="media.php?page=pertanyaan&aksi=del&id=<?php echo $row[id]; ?>" onClick="return confirmdelete('Data ini');"></a></td>
   <td width="50" align="center"><a href="media.php?page=pertanyaan&aksi=edit&id=<?php echo $row[id]; ?>">Edit</a></td>
-  <td width="50" align="center"><a href="media.php?page=pertanyaan&aksi=del&id=<?php echo $row[id]; ?>" onClick="return confirmdelete('Data ini');">Delete</a></td>
 </tr>
 <?php
 }

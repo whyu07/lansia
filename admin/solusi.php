@@ -78,8 +78,8 @@ if ($no%2<>0) {$warna="#efefef";} else {$warna="#dddddd";}
   <td align="left"><?php echo $row[master_penyakit]; ?></td>
   <td align="left"><?php echo $row[definisi]; ?></td>
    <td align="left"><?php echo $row[solusi]; ?></td>
-  <td width="50" align="center" ><a href="media.php?page=solusi&aksi=edit&id=<?php echo $row[id]; ?>">Edit  |</a></td>
-  <td width="50" align="center"><a href="media.php?page=solusi&aksi=del&id=<?php echo $row[id]; ?>" onClick="return confirmdelete('Data ini');">Delete</a></td>
+  <td width="50" align="center" ><a href="media.php?page=solusi&aksi=edit&id=<?php echo $row[id]; ?>">| Edit  </a></td>
+  <!-- <td width="50" align="center"><a href="media.php?page=solusi&aksi=del&id=<?php echo $row[id]; ?>" onClick="return confirmdelete('Data ini');">Delete</a></td> -->
 </tr>
 <?php
 }

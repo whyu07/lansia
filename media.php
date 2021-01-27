@@ -195,8 +195,6 @@ if(empty($_SESSION[id_acount])){}else{
  <br>
  <?}?>
  
-<div id='judul_header'>&#187; Jam </div>
-<center><embed src="images/jam-akun.swf?TimeZone=ICT&"  width="250" height="100" wmode="transparent" type="application/x-shockwave-flash"></center>
 
  <div id='judul_header'>&#187; Kalender</div>
   <div class='agenda'> 
